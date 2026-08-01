@@ -1,0 +1,31 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.remitly.com/us/en/home/licenses
+docs:
+  licenses: https://www.remitly.com/us/en/home/licenses
+  security: https://www.remitly.com/us/en/home/security
+standards:
+- id: money-services-business-fincen
+  conforms: true
+  evidence: Registered with the U.S. Department of the Treasury (FinCEN) as a Money
+    Services Business; NMLS No. 1028236 (published on remitly.com licenses page).
+- id: us-money-transmitter-licenses
+  conforms: true
+  evidence: Licensed as a money transmitter across all 50 U.S. states plus D.C.,
+    Puerto Rico, Guam, and Northern Mariana Islands, with per-state license numbers
+    published on the licenses page. Licensed by the New York State DFS.
+- id: fintrac-canada-msb
+  conforms: true
+  evidence: Registered with FINTRAC (Canada) as a Money Services Business,
+    registration number M15481516; Revenu Quebec licence 12441.
+- id: tls-in-transit
+  conforms: true
+  evidence: Site served over HTTPS with TLS 1.3 (probed); security page states
+    SSL/256-bit encryption for account sessions.
+- id: pci-dss
+  conforms: unverified
+  evidence: Remitly processes card payments but does not publish a PCI DSS
+    attestation on its own security/licenses pages; not asserted.
+notes: Remitly is a regulated cross-border money-movement provider. Regulatory
+  registrations/licenses are published; formal security certifications
+  (SOC 2 / ISO 27001) are not published on Remitly's public pages.

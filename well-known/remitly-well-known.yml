@@ -1,0 +1,31 @@
+generated: '2026-07-21'
+method: searched
+source: live probes of Remitly API + website hosts
+hosts:
+- host: https://api.remitly.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://www.remitly.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+notes: No .well-known discovery documents are published on the reachable Remitly hosts.
+  Remitly's developer/partner API (developer.remitly.com) is a gated enterprise
+  integration and is not reachable for unauthenticated discovery probing.

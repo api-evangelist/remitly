@@ -1,9 +1,29 @@
 aid: remitly
 name: Remitly
-description: 'Remitly is a company surfaced as a portfolio company of qed-investors, techstars, threshold-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Remitly is a Seattle-based digital financial services provider for immigrants
+  and their families, operating a global cross-border remittance and money-movement
+  network across more than 170 countries. Beyond its consumer money-transfer app,
+  Remitly runs "Remitly for Developers" (Remitly Access), a gated enterprise partner
+  API that lets businesses embed international payouts, cross-border payments, and
+  locally relevant disbursement options into their own products, along with open-source
+  "Connected Experiences" mobile/web SDK components. Remitly is a regulated money
+  services business: FinCEN-registered, licensed as a money transmitter across all
+  50 U.S. states, and registered with FINTRAC in Canada. Added to the API Evangelist
+  network as a fintech company profile and enriched with identity, domain-security,
+  and compliance artifacts.'
 url: https://raw.githubusercontent.com/api-evangelist/remitly/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://avatars.githubusercontent.com/u/2490045?v=4
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -14,10 +34,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Fintech
+- Money Transfer
+- Remittances
+- Cross-Border Payments
+- Payments
+- Financial Services
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,4 +51,29 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://remitly.com
+  url: https://www.remitly.com
+- type: DeveloperPortal
+  url: https://developer.remitly.com/
+- type: Documentation
+  url: https://developer.remitly.com/
+- type: Support
+  url: https://www.remitly.com/us/en/help
+- type: Blog
+  url: https://blog.remitly.com
+- type: GitHubOrganization
+  url: https://github.com/Remitly
+- type: TermsOfService
+  url: https://www.remitly.com/us/en/home/agreement
+- type: PrivacyPolicy
+  url: https://www.remitly.com/us/en/home/notice
+- type: Compliance
+  url: https://www.remitly.com/us/en/home/licenses
+- type: DomainSecurity
+  url: security/remitly-domain-security.yml
+- type: Conformance
+  url: conformance/remitly-conformance.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
